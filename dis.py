@@ -37,7 +37,7 @@ if args.hd:
         type_hash = sys.argv[1]
         hash_a=sys.argv[2]
     except:
-        print(f'''
+        print('''
               _______  ______ _____ _______  _____ 
               |       |_____/   |      |    |     |
               |_____  |    \_ __|__    |    |_____|
