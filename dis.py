@@ -1,5 +1,4 @@
 import argparse
-from bs4 import BeautifulSoup
 import hashlib
 import nmap
 from os import system
