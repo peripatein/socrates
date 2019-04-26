@@ -40,8 +40,7 @@ if args.hd:
         print(f'''
               _______  ______ _____ _______  _____ 
               |       |_____/   |      |    |     |
-              |_____  |    \_ __|__    |    |_____|\n\n
-              [*]USAGE: {sys.argv[0]} type_hash(md5, sha256, sha512) hash
+              |_____  |    \_ __|__    |    |_____|
               ''')
         so = input("Enter Hash >>> ")
         for password in so:
