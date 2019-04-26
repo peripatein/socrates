@@ -37,10 +37,11 @@ if args.hd:
         type_hash = sys.argv[1]
         hash_a=sys.argv[2]
     except:
-        print('''
+        print(f'''
               _______  ______ _____ _______  _____ 
               |       |_____/   |      |    |     |
-              |_____  |    \_ __|__    |    |_____|
+              |_____  |    \_ __|__    |    |_____|\n\n
+              [*]USAGE: {sys.argv[0]} type_hash(md5, sha256, sha512) hash
               ''')
         so = input("Enter Hash >>> ")
         for password in so:
